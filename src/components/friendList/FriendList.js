@@ -17,7 +17,7 @@ const FriendList = ({ friends }) => {
 };
 
 FriendList.poppTypes = {
-  friends: PropTypes.object.isRequired,
+  friends: PropTypes.array.isRequired,
 };
 
 export default FriendList;
