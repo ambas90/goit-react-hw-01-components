@@ -1,4 +1,4 @@
-.profile {
+.statistics {
   width: 300px;
   margin: 20px auto;
   text-align: center;
@@ -6,44 +6,33 @@
   border-radius: 10px;
   box-shadow: 2px 2px 6px -3px rgba(0, 0, 0, 1);
 }
-
-.profile:hover {
+.statistics:hover {
   box-shadow: 4px 4px 6px -3px rgba(0, 0, 0, 1);
 }
 
-.description {
+.title {
   padding: 10px;
-}
-
-.profile img {
-  width: 100px;
-  margin: auto;
-}
-
-.name {
   font-size: 20px;
   font-weight: 900;
-  padding: 10px;
+  margin-top: 10px;
 }
 
-.tag,
-.location,
-.label {
-  color: grey;
-}
-
-.stats {
+.statList {
   display: flex;
   justify-content: center;
+}
+
+.item {
   padding: 10px;
-}
-
-.stats li {
   display: flex;
+  width: calc(100% / 5);
   flex-direction: column;
-  width: 100px;
 }
 
-.quantity {
-  font-weight: 700;
+.item:first-child {
+  border-radius: 0px 0px 0px 10px;
+}
+
+.item:last-child {
+  border-radius: 0px 0px 10px 0px;
 }
