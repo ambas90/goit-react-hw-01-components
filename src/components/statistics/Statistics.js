@@ -21,7 +21,7 @@ const Statistics = ({ title, stats }) => {
   );
 };
 
-Statistics.poppTypes = {
+Statistics.propTypes = {
   title: PropTypes.string,
   stats: PropTypes.object.isRequired,
 };

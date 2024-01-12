@@ -17,7 +17,7 @@ const FriendList = ({ friends }) => {
   );
 };
 
-FriendList.poppTypes = {
+FriendList.propTypes = {
   friends: PropTypes.array.isRequired,
 };
 

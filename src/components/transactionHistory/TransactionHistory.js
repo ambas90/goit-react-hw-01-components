@@ -24,7 +24,7 @@ const TransactionHistory = ({ items }) => {
   );
 };
 
-TransactionHistory.poppTypes = {
+TransactionHistory.propTypes = {
   items: PropTypes.array.isRequired,
 };
 
